@@ -5,12 +5,12 @@ function Header() {
   return (
     <>
       <header className="bg-[var(--marrom-kker)] min-w-screen flex justify-center items-center pr-10 pl-10">
-        <div className="w-full max-w-7xl flex justify-between items-center">
+        <div className="w-full max-w-4xl flex justify-between items-center">
           <div>
             <img
               className="rounded-full"
               src={LogoKker}
-              width={80}
+              width={60}
               alt="kker logo"
             />
           </div>
