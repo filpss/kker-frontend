@@ -12,6 +12,7 @@ function Home() {
     {
       Icon: FaUserPlus,
       Text: "Clientes",
+      to: "/clients",
     },
     {
       Icon: MdOutlineSell,
@@ -49,7 +50,12 @@ function Home() {
       <div className="">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-15 mb-20">
           {opcoes.map((opcao, index) => (
-            <BotaoOpcoes key={index} Icon={opcao.Icon} Text={opcao.Text} />
+            <BotaoOpcoes
+              key={index}
+              Icon={opcao.Icon}
+              Text={opcao.Text}
+              to={opcao.to}
+            />
           ))}
         </div>
       </div>
