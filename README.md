@@ -1,12 +1,26 @@
-# React + Vite
+<p align="center">
+  <img align="center" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/> &nbsp;
+  <img align="center" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"/> &nbsp;
+  <img align="center" height="50" width="50" src="https://vitejs.dev/logo-with-shadow.png"/> &nbsp;
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19.1-61DAFB.svg?style=flat-square" alt="React 19.1.0" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.1.8-38B2AC.svg?style=flat-square" alt="Tailwind CSS 4.1.8"/>
+  <img src="https://img.shields.io/badge/Vite-6.3.5-646CFF.svg?style=flat-square" alt="Vite 6.3.5" />
+  <br>
+  <img src="https://img.shields.io/badge/Aplicação Web-purple.svg?style=flat-square"alt="Platforms">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## KK&R System
 
-Currently, two official plugins are available:
+Projeto desenvolvido para um cliente real utilizando React. Trata-se de um sistema de gestão financeira que permite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Cadastrar novos clientes
+- Registrar vendas e pagamentos
+- Acompanhar históricos de transações
+- Gerar relatórios financeiros
+- Visualizar clientes inadimplentes
 
-## Expanding the ESLint configuration
+O sistema foi projetado para oferecer controle financeiro de forma simples, eficiente e intuitiva.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Projeto em andamento!
