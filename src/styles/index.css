@@ -34,5 +34,6 @@ body,
   --marrom-kker-fraco: #430e18;
   --marrom-kker-hover: #330b17;
   --laranja-kker: #f49910;
-  --laranja-kker-claro: #fcd07c;
+  /* --laranja-kker-claro: #fcd07c; */
+  --laranja-kker-claro: #ffe7c3;
 }

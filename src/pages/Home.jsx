@@ -37,18 +37,16 @@ function Home() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-50">
-      <div className="mt-20 text-center flex flex-col items-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">
-          <img src={KkerSystem} alt="kk&r system" width={300} />
-        </h1>
-        <p className="text-gray-600 font-medium mt-10 px-10">
+    <div className="flex flex-col justify-center items-center flex-1 h-full w-full bg-gray-50">
+      <div className="max-w-sm text-sm sm:max-w-md sm:text-base md:max-w-2xl text-center flex flex-col items-center py-10">
+        <img src={KkerSystem} alt="kk&r system" width={300} />
+        <p className="pt-10 text-gray-600 font-medium">
           Cadastre novos clientes, visualize históricos de venda, calendário de
           cobrança e muito mais!
         </p>
       </div>
       <div className="">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-15 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
           {opcoes.map((opcao, index) => (
             <BotaoOpcoes
               key={index}

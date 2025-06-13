@@ -6,20 +6,18 @@ import Clients from "./pages/Clients";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <main className="flex-grow flex flex-col justify-center items-center">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/clients" element={<Clients />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <div className="flex flex-col h-screen">
+        <Header />
+        <main className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/clients" element={<Clients />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

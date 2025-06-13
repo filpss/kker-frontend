@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nome": "Filipe Pinho",
+    "telefone": "71 9 9999-9999",
+    "divida": 100,
+    "ativo": true,
+    "data_cobranca": "2025-10-01"
+  },
+  {
+    "id": 2,
+    "nome": "Karla Simone",
+    "telefone": "71 9 9999-9999",
+    "divida": 300,
+    "ativo": true,
+    "data_cobranca": "2025-10-01"
+  },
+  {
+    "id": 3,
+    "nome": "Daniel Pinho",
+    "telefone": "71 9 9999-9999",
+    "divida": 0,
+    "ativo": false,
+    "data_cobranca": null
+  },
+  {
+    "id": 4,
+    "nome": "João Silva",
+    "telefone": "71 9 9999-9999",
+    "divida": 150,
+    "ativo": true,
+    "data_cobranca": "2025-10-01"
+  },
+  {
+    "id": 5,
+    "nome": "Maria Oliveira",
+    "telefone": "71 9 9999-9999",
+    "divida": 0,
+    "ativo": false,
+    "data_cobranca": null
+  },
+  {
+    "id": 6,
+    "nome": "João Silva",
+    "telefone": "71 9 9999-9999",
+    "divida": 150,
+    "ativo": true,
+    "data_cobranca": "2025-10-01"
+  },
+  {
+    "id": 7,
+    "nome": "Maria Oliveira",
+    "telefone": "71 9 9999-9999",
+    "divida": 0,
+    "ativo": false,
+    "data_cobranca": null
+  }
+]
